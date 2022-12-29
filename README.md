@@ -6,10 +6,10 @@ Capstone project for CS1760 Multiprocessor Synchronization @ Brown.
 
 This project is developed using maven 3.8.3 and Java 17.0.1.
 
-```
-mvn package 		# install dependencies
-mvn test			# run all tests
-mvn exec:java       # run benchmarking code
+```sh
+mvn package 		          # install dependencies
+mvn test			  # run all tests
+mvn exec:java                     # run benchmarking code
 ```
 
 ## Sample benchmarking results
