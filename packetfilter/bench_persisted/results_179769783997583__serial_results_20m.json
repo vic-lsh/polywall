@@ -1,0 +1,212 @@
+{
+  "results" : {
+    "preset1" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "SerialFirewallDriver" : {
+              "durationNanos" : 17307397541,
+              "durationMillis" : 17307,
+              "speedup" : 1.0
+            }
+          }
+        }
+      }
+    },
+    "preset2" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "SerialFirewallDriver" : {
+              "durationNanos" : 15364616167,
+              "durationMillis" : 15364,
+              "speedup" : 1.0
+            }
+          }
+        }
+      }
+    },
+    "preset3" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "SerialFirewallDriver" : {
+              "durationNanos" : 14211138125,
+              "durationMillis" : 14211,
+              "speedup" : 1.0
+            }
+          }
+        }
+      }
+    },
+    "preset4" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "SerialFirewallDriver" : {
+              "durationNanos" : 11009630125,
+              "durationMillis" : 11009,
+              "speedup" : 1.0
+            }
+          }
+        }
+      }
+    },
+    "preset5" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "SerialFirewallDriver" : {
+              "durationNanos" : 10536895792,
+              "durationMillis" : 10536,
+              "speedup" : 1.0
+            }
+          }
+        }
+      }
+    },
+    "preset6" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "SerialFirewallDriver" : {
+              "durationNanos" : 10326819750,
+              "durationMillis" : 10326,
+              "speedup" : 1.0
+            }
+          }
+        }
+      }
+    },
+    "preset7" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "SerialFirewallDriver" : {
+              "durationNanos" : 11364328917,
+              "durationMillis" : 11364,
+              "speedup" : 1.0
+            }
+          }
+        }
+      }
+    },
+    "preset8" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "SerialFirewallDriver" : {
+              "durationNanos" : 11283834000,
+              "durationMillis" : 11283,
+              "speedup" : 1.0
+            }
+          }
+        }
+      }
+    }
+  }
+}

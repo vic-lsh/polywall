@@ -1,0 +1,12 @@
+{
+  "numAddressesLog": 12,
+  "numTrainsLog": 10,
+  "meanTrainSize": 1,
+  "meanTrainsPerComm": 3,
+  "meanWindow": 3,
+  "meanCommsPerAddress": 1,
+  "meanWork": 2644,
+  "configFraction": 0.11,
+  "pngFraction": 0.09,
+  "acceptingFraction": 0.92
+}

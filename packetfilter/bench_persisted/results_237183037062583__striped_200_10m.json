@@ -1,0 +1,332 @@
+{
+  "results" : {
+    "preset1" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 3560066083,
+              "durationMillis" : 3560,
+              "speedup" : 2.80893662276437E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 1950824305,
+              "durationMillis" : 1950,
+              "speedup" : 5.12603824668875E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 2001890583,
+              "durationMillis" : 2001,
+              "speedup" : 4.995278006160639E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 2166272027,
+              "durationMillis" : 2166,
+              "speedup" : 4.6162254210745064E-10
+            }
+          }
+        }
+      }
+    },
+    "preset2" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 3677164431,
+              "durationMillis" : 3677,
+              "speedup" : 2.7194867642294997E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 1979736027,
+              "durationMillis" : 1979,
+              "speedup" : 5.051178472088289E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 1707940208,
+              "durationMillis" : 1707,
+              "speedup" : 5.855005903110632E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 2332576625,
+              "durationMillis" : 2332,
+              "speedup" : 4.2871046090500884E-10
+            }
+          }
+        }
+      }
+    },
+    "preset3" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 3108645222,
+              "durationMillis" : 3108,
+              "speedup" : 3.2168354012319E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 1930783652,
+              "durationMillis" : 1930,
+              "speedup" : 5.179244183905075E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 2228788653,
+              "durationMillis" : 2228,
+              "speedup" : 4.486742153204959E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 2759863500,
+              "durationMillis" : 2759,
+              "speedup" : 3.6233676049558247E-10
+            }
+          }
+        }
+      }
+    },
+    "preset4" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 2909056680,
+              "durationMillis" : 2909,
+              "speedup" : 3.437540446960284E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 1578657208,
+              "durationMillis" : 1578,
+              "speedup" : 6.334497412943114E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 1957837930,
+              "durationMillis" : 1957,
+              "speedup" : 5.107675077068305E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 2515996152,
+              "durationMillis" : 2515,
+              "speedup" : 3.97456887684461E-10
+            }
+          }
+        }
+      }
+    },
+    "preset5" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 2606323000,
+              "durationMillis" : 2606,
+              "speedup" : 3.836822987787776E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 1484257750,
+              "durationMillis" : 1484,
+              "speedup" : 6.737374286912094E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 1664542180,
+              "durationMillis" : 1664,
+              "speedup" : 6.007657913481051E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 2568200944,
+              "durationMillis" : 2568,
+              "speedup" : 3.8937763119208637E-10
+            }
+          }
+        }
+      }
+    },
+    "preset6" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 2762920611,
+              "durationMillis" : 2762,
+              "speedup" : 3.619358428246927E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 1567254486,
+              "durationMillis" : 1567,
+              "speedup" : 6.380584703587187E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 1719987014,
+              "durationMillis" : 1719,
+              "speedup" : 5.813997384052343E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 2312924402,
+              "durationMillis" : 2312,
+              "speedup" : 4.3235308475075704E-10
+            }
+          }
+        }
+      }
+    },
+    "preset7" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 2857486805,
+              "durationMillis" : 2857,
+              "speedup" : 3.499578714590075E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 1579878528,
+              "durationMillis" : 1579,
+              "speedup" : 6.32960055015065E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 1823761847,
+              "durationMillis" : 1823,
+              "speedup" : 5.483172058045581E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 2507817375,
+              "durationMillis" : 2507,
+              "speedup" : 3.9875311893474697E-10
+            }
+          }
+        }
+      }
+    },
+    "preset8" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 2715234013,
+              "durationMillis" : 2715,
+              "speedup" : 3.6829238113996767E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 1692269513,
+              "durationMillis" : 1692,
+              "speedup" : 5.909224224144017E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 1709370319,
+              "durationMillis" : 1709,
+              "speedup" : 5.850107427774988E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 2023839805,
+              "durationMillis" : 2023,
+              "speedup" : 4.941102539486815E-10
+            }
+          }
+        }
+      }
+    }
+  }
+}

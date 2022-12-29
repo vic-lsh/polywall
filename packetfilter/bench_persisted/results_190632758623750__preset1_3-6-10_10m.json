@@ -1,0 +1,357 @@
+{
+  "results" : {
+    "preset1" : {
+      "explainer" : "Thread count to firewall benchmark results.",
+      "results" : {
+        "3" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 3,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 1,
+              "numConfigWorkers" : 2
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 2,
+              "numCollectionPhaseWorkers" : 1
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "CoarseTaskPoolDriver" : {
+              "durationNanos" : 6010484500,
+              "durationMillis" : 6010,
+              "speedup" : 1.66375938578662E-10
+            },
+            "CoarseWorkerPoolDriver" : {
+              "durationNanos" : 6585146583,
+              "durationMillis" : 6585,
+              "speedup" : 1.5185690817901722E-10
+            },
+            "CoarsePartialPipelineDriver" : {
+              "durationNanos" : 6723962389,
+              "durationMillis" : 6723,
+              "speedup" : 1.4872183128744744E-10
+            },
+            "CoarsePhasedPipelineDriver" : {
+              "durationNanos" : 5253623680,
+              "durationMillis" : 5253,
+              "speedup" : 1.903448097751836E-10
+            },
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 3274531444,
+              "durationMillis" : 3274,
+              "speedup" : 3.053872033607505E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 2855973778,
+              "durationMillis" : 2855,
+              "speedup" : 3.501432708182239E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 3841125430,
+              "durationMillis" : 3841,
+              "speedup" : 2.6034036592239063E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 3179176555,
+              "durationMillis" : 3179,
+              "speedup" : 3.1454685913157785E-10
+            },
+            "StripedLockPNGRTaskPoolDriver" : {
+              "durationNanos" : 3403073625,
+              "durationMillis" : 3403,
+              "speedup" : 2.938520026877173E-10
+            },
+            "StripedLockPNGRWorkerPoolDriver" : {
+              "durationNanos" : 2622402986,
+              "durationMillis" : 2622,
+              "speedup" : 3.8132964511503956E-10
+            },
+            "StripedLockPNGRPartialPipelineDriver" : {
+              "durationNanos" : 3943249333,
+              "durationMillis" : 3943,
+              "speedup" : 2.535979633931E-10
+            },
+            "StripedLockPNGRPhasedPipelineDriver" : {
+              "durationNanos" : 3015376611,
+              "durationMillis" : 3015,
+              "speedup" : 3.316335333875149E-10
+            },
+            "FineGrainedTaskPoolDriver" : {
+              "durationNanos" : 3288550194,
+              "durationMillis" : 3288,
+              "speedup" : 3.040853692379433E-10
+            },
+            "FineGrainedWorkerPoolDriver" : {
+              "durationNanos" : 2599665430,
+              "durationMillis" : 2599,
+              "speedup" : 3.8466488358850085E-10
+            },
+            "FineGrainedPartialPipelineDriver" : {
+              "durationNanos" : 3767642972,
+              "durationMillis" : 3767,
+              "speedup" : 2.6541793036965076E-10
+            },
+            "FineGrainedPhasedPipelineDriver" : {
+              "durationNanos" : 2961657722,
+              "durationMillis" : 2961,
+              "speedup" : 3.3764874062648353E-10
+            },
+            "NonBlockingTaskPoolDriver" : {
+              "durationNanos" : 3365597750,
+              "durationMillis" : 3365,
+              "speedup" : 2.9712403985295035E-10
+            },
+            "NonBlockingWorkerPoolDriver" : {
+              "durationNanos" : 2661335055,
+              "durationMillis" : 2661,
+              "speedup" : 3.757512599254437E-10
+            },
+            "NonBlockingPartialPipelineDriver" : {
+              "durationNanos" : 3982290666,
+              "durationMillis" : 3982,
+              "speedup" : 2.5111175548731276E-10
+            },
+            "NonBlockingPhasedPipelineDriver" : {
+              "durationNanos" : 3151630264,
+              "durationMillis" : 3151,
+              "speedup" : 3.1729610272583674E-10
+            }
+          }
+        },
+        "6" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 6,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 3,
+              "numConfigWorkers" : 3
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 4,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "CoarseTaskPoolDriver" : {
+              "durationNanos" : 5595289416,
+              "durationMillis" : 5595,
+              "speedup" : 1.787217649797438E-10
+            },
+            "CoarseWorkerPoolDriver" : {
+              "durationNanos" : 6024158986,
+              "durationMillis" : 6024,
+              "speedup" : 1.6599827499970965E-10
+            },
+            "CoarsePartialPipelineDriver" : {
+              "durationNanos" : 5043319874,
+              "durationMillis" : 5043,
+              "speedup" : 1.9828208897780493E-10
+            },
+            "CoarsePhasedPipelineDriver" : {
+              "durationNanos" : 7364215652,
+              "durationMillis" : 7364,
+              "speedup" : 1.3579178656024507E-10
+            },
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 3296178763,
+              "durationMillis" : 3296,
+              "speedup" : 3.0338160394245585E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 1798807611,
+              "durationMillis" : 1798,
+              "speedup" : 5.559238208048698E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 2119344541,
+              "durationMillis" : 2119,
+              "speedup" : 4.718439973559731E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 2340143792,
+              "durationMillis" : 2340,
+              "speedup" : 4.2732416846289245E-10
+            },
+            "StripedLockPNGRTaskPoolDriver" : {
+              "durationNanos" : 3292730972,
+              "durationMillis" : 3292,
+              "speedup" : 3.036992722768971E-10
+            },
+            "StripedLockPNGRWorkerPoolDriver" : {
+              "durationNanos" : 1655847874,
+              "durationMillis" : 1655,
+              "speedup" : 6.039202125400078E-10
+            },
+            "StripedLockPNGRPartialPipelineDriver" : {
+              "durationNanos" : 2111055527,
+              "durationMillis" : 2111,
+              "speedup" : 4.736966826358613E-10
+            },
+            "StripedLockPNGRPhasedPipelineDriver" : {
+              "durationNanos" : 2258988583,
+              "durationMillis" : 2258,
+              "speedup" : 4.426759867338382E-10
+            },
+            "FineGrainedTaskPoolDriver" : {
+              "durationNanos" : 3357590722,
+              "durationMillis" : 3357,
+              "speedup" : 2.9783260760392343E-10
+            },
+            "FineGrainedWorkerPoolDriver" : {
+              "durationNanos" : 1753015722,
+              "durationMillis" : 1753,
+              "speedup" : 5.70445539906002E-10
+            },
+            "FineGrainedPartialPipelineDriver" : {
+              "durationNanos" : 2116049374,
+              "durationMillis" : 2116,
+              "speedup" : 4.725787650737492E-10
+            },
+            "FineGrainedPhasedPipelineDriver" : {
+              "durationNanos" : 2249267833,
+              "durationMillis" : 2249,
+              "speedup" : 4.4458911710226727E-10
+            },
+            "NonBlockingTaskPoolDriver" : {
+              "durationNanos" : 3462840528,
+              "durationMillis" : 3462,
+              "speedup" : 2.8878026346121126E-10
+            },
+            "NonBlockingWorkerPoolDriver" : {
+              "durationNanos" : 1620198625,
+              "durationMillis" : 1620,
+              "speedup" : 6.172082759297491E-10
+            },
+            "NonBlockingPartialPipelineDriver" : {
+              "durationNanos" : 2297912750,
+              "durationMillis" : 2297,
+              "speedup" : 4.351775323062201E-10
+            },
+            "NonBlockingPhasedPipelineDriver" : {
+              "durationNanos" : 2210561638,
+              "durationMillis" : 2210,
+              "speedup" : 4.5237372385813564E-10
+            }
+          }
+        },
+        "10" : {
+          "threadingConfig" : {
+            "defaultNumThreads" : 10,
+            "partialPipelineWorkflow" : {
+              "numDataWorkers" : 5,
+              "numConfigWorkers" : 5
+            },
+            "phasedPipelineWorkflow" : {
+              "numCtrlPhaseWorkers" : 8,
+              "numCollectionPhaseWorkers" : 2
+            }
+          },
+          "explainer" : "Firewall name to benchmark results.",
+          "results" : {
+            "CoarseTaskPoolDriver" : {
+              "durationNanos" : 5615785361,
+              "durationMillis" : 5615,
+              "speedup" : 1.7806948373502838E-10
+            },
+            "CoarseWorkerPoolDriver" : {
+              "durationNanos" : 5760615652,
+              "durationMillis" : 5760,
+              "speedup" : 1.7359255683944387E-10
+            },
+            "CoarsePartialPipelineDriver" : {
+              "durationNanos" : 6684137389,
+              "durationMillis" : 6684,
+              "speedup" : 1.4960793619318587E-10
+            },
+            "CoarsePhasedPipelineDriver" : {
+              "durationNanos" : 7322933486,
+              "durationMillis" : 7322,
+              "speedup" : 1.3655729659593414E-10
+            },
+            "StripedLockTaskPoolDriver" : {
+              "durationNanos" : 3326235527,
+              "durationMillis" : 3326,
+              "speedup" : 3.006401657016515E-10
+            },
+            "StripedLockWorkerPoolDriver" : {
+              "durationNanos" : 1383112486,
+              "durationMillis" : 1383,
+              "speedup" : 7.230069933733503E-10
+            },
+            "StripedLockPartialPipelineDriver" : {
+              "durationNanos" : 1753560763,
+              "durationMillis" : 1753,
+              "speedup" : 5.702682342693362E-10
+            },
+            "StripedLockPhasedPipelineDriver" : {
+              "durationNanos" : 2038525291,
+              "durationMillis" : 2038,
+              "speedup" : 4.905506958461375E-10
+            },
+            "StripedLockPNGRTaskPoolDriver" : {
+              "durationNanos" : 3455858389,
+              "durationMillis" : 3455,
+              "speedup" : 2.8936370864703274E-10
+            },
+            "StripedLockPNGRWorkerPoolDriver" : {
+              "durationNanos" : 1309463583,
+              "durationMillis" : 1309,
+              "speedup" : 7.636714857766304E-10
+            },
+            "StripedLockPNGRPartialPipelineDriver" : {
+              "durationNanos" : 1690609514,
+              "durationMillis" : 1690,
+              "speedup" : 5.915026454772453E-10
+            },
+            "StripedLockPNGRPhasedPipelineDriver" : {
+              "durationNanos" : 2072248763,
+              "durationMillis" : 2072,
+              "speedup" : 4.825675458733522E-10
+            },
+            "FineGrainedTaskPoolDriver" : {
+              "durationNanos" : 3257300472,
+              "durationMillis" : 3257,
+              "speedup" : 3.070026878380043E-10
+            },
+            "FineGrainedWorkerPoolDriver" : {
+              "durationNanos" : 1385841431,
+              "durationMillis" : 1385,
+              "speedup" : 7.215832761461149E-10
+            },
+            "FineGrainedPartialPipelineDriver" : {
+              "durationNanos" : 1654966847,
+              "durationMillis" : 1654,
+              "speedup" : 6.042417114353228E-10
+            },
+            "FineGrainedPhasedPipelineDriver" : {
+              "durationNanos" : 2095418263,
+              "durationMillis" : 2095,
+              "speedup" : 4.772316905209679E-10
+            },
+            "NonBlockingTaskPoolDriver" : {
+              "durationNanos" : 3308281569,
+              "durationMillis" : 3308,
+              "speedup" : 3.0227173205885005E-10
+            },
+            "NonBlockingWorkerPoolDriver" : {
+              "durationNanos" : 1409523361,
+              "durationMillis" : 1409,
+              "speedup" : 7.094596852162424E-10
+            },
+            "NonBlockingPartialPipelineDriver" : {
+              "durationNanos" : 1919139583,
+              "durationMillis" : 1919,
+              "speedup" : 5.210668410250804E-10
+            },
+            "NonBlockingPhasedPipelineDriver" : {
+              "durationNanos" : 2162124749,
+              "durationMillis" : 2162,
+              "speedup" : 4.625080030477002E-10
+            }
+          }
+        }
+      }
+    }
+  }
+}

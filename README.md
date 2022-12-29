@@ -2,8 +2,18 @@
 
 Capstone project for CS1760 Multiprocessor Synchronization @ Brown.
 
-This repository only contains this project's description, proposal, and final
-report.
+## Getting started
 
-If you're interested in this project's source code, I'd be happy to discuss
-further via email! Please contact me at shihang_li at brown dot edu.
+This project is developed using maven 3.8.3 and Java 17.0.1.
+
+```
+mvn package 		# install dependencies
+mvn test			# run all tests
+mvn exec:java       # run benchmarking code
+```
+
+## Sample benchmarking results
+
+See `packetfilter/bench_persisted/results_193285383091666__10m.json` for the
+benchmarking results used in the final report. Run `mvn exec:java` to re-run
+benchmarks.
